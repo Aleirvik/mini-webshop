@@ -1,0 +1,95 @@
+
+[
+  {
+    "id": 1,
+    "name": "Salomon XT-6 GTX Løpesko",
+    "price": 899,
+    "brand": "ProRun",
+    "size": "41-46",
+    "images": [
+        "assets/images/xt-6GTX.webp",
+        "assets/images/xt-6GTX_2.webp"
+    ],
+    "description": "Lette og stabile løpesko for både asfalt og grus."
+  },
+  {
+    "id": 2,
+    "name": "Fjellsekk Trail 20L",
+    "price": 649,
+    "brand": "TrailCo",
+    "size": "20L",
+    "images": [
+        "assets/images/fjellsekk.webp",
+        "assets/images/fjellsekk_2.webp",
+        "assets/images/fjellsekk_3.webp"
+    ],
+    "description": "Slitesterk dagstursekk med god bæreevne og praktiske lommer."
+  },
+  {
+    "id": 3,
+    "name": "Løpevest Ultra Light",
+    "price": 449,
+    "brand": "RunPro",
+    "size": "S-XL",
+    "images": [
+        "assets/images/salomonLøpevest.jpeg"
+    ],
+    "description": "Ultralett løpevest perfekt for lange løpeturer og marathons."
+  },
+  {
+    "id": 4,
+    "name": "Salomon Aero Blaze 3 GRVL Løpesko",
+    "price": 1900,
+    "brand": "Salomon",
+    "size": "40-47",
+    "images": [
+        "assets/images/salomonLøpesko.avif"
+    ],
+    "description": "Responsiv løpesko med ekstra demping for komfort på lange distanser."
+  },
+  {
+    "id": 5,
+    "name": "Lett Sportsjakke Storm",
+    "price": 599,
+    "brand": "Swix",
+    "size": "XS-XXL",
+    "images": [
+        "assets/images/swixSportsjakke.webp"
+    ],
+    "description": "Vindtett og vannavstøtende jakke for løp i variert vær."
+  },
+  {
+    "id": 6,
+    "name": "Treningslue Performance",
+    "price": 299,
+    "brand": "Morild",
+    "size": "One size",
+    "images": [
+        "assets/images/treningslueMorild.avif"
+    ],
+    "description": "Komfortabel løperlue fra Morild, med UV-beskyttelse og fuktighetskontroll."
+  },
+  {
+    "id": 7,
+    "name": "Løpesokker Merino 3-pack",
+    "price": 249,
+    "brand": "ComfortFit",
+    "size": "36-46",
+    "images": [
+        "assets/images/asicsTreningssokker.avif"
+    ],
+    "description": "Premium merinoull-sokker som holder føttene tørre og varme."
+  },
+  {
+    "id": 8,
+    "name": "Tights Dæhlie",
+    "price": 349,
+    "brand": "TrailCo",
+    "size": "S-XXL",
+    "images": [
+        "assets/images/tights.jpeg"
+    ],
+    "description": "Kompresjonsteknologi for bedre sirkulasjon og ytelse."
+  }
+]
+ 

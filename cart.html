@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Handleliste</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1><a href="index.html">Sportsbutikken</a></h1>
+        <nav>
+            <a href="products.html">Produkter</a>
+            <a class="isOnPage" href="cart.html">Handleliste</a>
+        </nav>
+    </header>
+
+    <section class="hero-left">
+        <h2>Din handleliste</h2>
+    </section>
+
+    <section class="cart-content">
+        <p id="cart-empty">Handlelisten er tom.</p>
+        <div id="cart-items" class="cart-items">
+            <!-- Varer i handlelisten vil bli vist her -->
+        </div>
+        <div id="cart-actions" hidden>
+            <button id="clear-cart" class="btn" type="button">Tøm listen</button>
+            <p id="cart-total-row"><strong>Total:</strong> <span id="cart-total">0 kr</span></p>
+        </div>
+    </section>
+
+    <section id="order-section" class="order-form" hidden>
+        <h2>Send bestilling</h2>
+        <form id="order-form">
+            <label for="customer-name">Navn:</label>
+            <input type="text" id="customer-name" name="customer-name" required>
+
+            <label for="customer-email">E-post:</label>
+            <input type="email" id="customer-email" name="customer-email" required>
+
+            <label for="customer-address">Adresse:</label>
+            <input type="text" id="customer-address" name="customer-address" required>
+
+            <label for="customer-phone">Telefon:</label>
+            <input type="tel" id="customer-phone" name="customer-phone" required>   
+
+            <label for="customer-message">Melding (valgfritt):</label>
+            <textarea id="customer-message" name="customer-message"></textarea>
+        
+
+            <button type="submit">Bestill</button>
+        </form>
+    </section>
+
+    <script type="module" src="src/cart.ts"></script>
+</body>
+</html>
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head> 
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Produktdetaljer</title>
+    <!-- Link to your stylesheet -->
+    <link rel="stylesheet" href="assets/style.css"/>
+</head>
+
+<body>
+<header>
+    <h1><a href="index.html">Sportsbutikken</a></h1>
+    <nav>
+        <a href="products.html">Produkter</a>
+        <a href="cart.html">Handleliste</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Produktdetaljer</h2>
+    <p>Se detaljer og legg produktet i handlelisten.</p>
+</section>
+
+<!--Dette fylles inn av product.ts når siden lastes-->
+<section id="product-detail" class="product-detail">
+    <!-- Produktdetaljer vil bli vist her -->
+</section>
+
+<!-- Laster TypeScript-logikken-->
+
+<script type="module" src="src/product.ts"></script>
+
+</body>
+</html>
